@@ -1,10 +1,11 @@
 this is my first git..........
 
 class HelloGit{
-helloGit(){
+ void helloGit(){
  sysout("hello Git...Welcome...");
 }
   public static void main(String[] args){
-     
+    HelloGit obj = new HelloGit;
+       obj.helloGit(); 
 }
 }
