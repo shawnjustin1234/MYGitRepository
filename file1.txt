@@ -1,11 +1,14 @@
 this is my first git..........
 
 class HelloGit{
- void helloGit(){
+public static void helloGit(){
  System.out.println("hello Git...Welcome...");
 }
   public static void main(String[] args){
-    HelloGit obj = new HelloGit;
-       obj.helloGit();
+    
+       HelloGit.helloGit();
+}
+    public static void myBigMethod(){
+    System.out.println("has a method");
 }
 }
